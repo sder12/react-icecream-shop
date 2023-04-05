@@ -24,7 +24,7 @@ const App = () => {
 
       {/* Menu */}
       <section className="columns is-centered">
-        <div className="column is-four-fifths has-background-light">
+        <div className="column is-four-fifths">
           <Menu />
         </div>
       </section>

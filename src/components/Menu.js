@@ -43,20 +43,19 @@ const Menu = () => {
     //Se tutto è andato a buon fine = map the data
     {
         return (
-            <div>
-                <ul>
-                    {
-                        icecream.data.map((el) => {
-                            return (
-                                //  <Item />
-                                <li key={el.id}>{el.nome}</li>
-                            )
-                        })
-                    }
-                </ul>
+            <div className="columns is-flex-direction-row is-flex-wrap-wrap">
+                {
+                    icecream.data.map((el) => {
+                        return (
+                            <Item key={el.id} {...el} />
+                        )
+                    })
+                }
             </div>
         )
     }
 }
+
+
 
 export default Menu
