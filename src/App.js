@@ -4,7 +4,7 @@ import Menu from './components/Menu'
 const App = () => {
   return (
 
-    <div className="App container is-max-widescreen is-centered">
+    <div className="App container-fluid  is-centered">
       {/* Title */}
       <section className="is-half pt-5 has-text-centered">
         <h1 className="title has-text-danger ">Frankie & Jaxon </h1>
@@ -13,12 +13,12 @@ const App = () => {
       </section>
 
       {/* Filter */}
-      <section className="columns my-5 py-3 is-centered has-background-light">
+      <section className="columns mt-5 mb-6 py-3 is-centered has-background-light">
         <ul className="column is-half is-flex is-justify-content-space-between">
-          <li><button className="button  is-link  is-small">ALL</button> </li>
-          <li><button className="button  is-primary is-small">CONO</button> </li>
-          <li><button className="button  is-primary is-small">COPPETTA</button> </li>
-          <li><button className="button  is-primary is-small">STICK</button> </li>
+          <li><button className="button  is-link  is-small has-text-weight-bold">ALL</button> </li>
+          <li><button className="button  is-primary is-small has-text-weight-bold ">CONO</button> </li>
+          <li><button className="button  is-primary is-small has-text-weight-bold">COPPETTA</button> </li>
+          <li><button className="button  is-primary is-small has-text-weight-bold">STICK</button> </li>
         </ul>
       </section>
 
