@@ -13,10 +13,10 @@ const Item = (props) => {
     let imgCategory;
     if (props.categoria === 'cono') {
         category = 'has-text-primary';
-        imgCategory = (<img src="https://i.pinimg.com/564x/1c/b0/bd/1cb0bdc807d32dee72cc5e1b8bc1a637.jpg" alt="Placeholder image" />)
+        imgCategory = (<img src="https://i.pinimg.com/564x/1e/8f/36/1e8f36e82cde16ea09dbc7f45828303b.jpg" alt="Placeholder image" />)
     } else if (props.categoria === 'coppetta') {
         category = 'has-text-danger';
-        imgCategory = (<img src="https://i.pinimg.com/564x/1e/8f/36/1e8f36e82cde16ea09dbc7f45828303b.jpg" alt="Placeholder image" />)
+        imgCategory = (<img src="https://i.pinimg.com/564x/1c/b0/bd/1cb0bdc807d32dee72cc5e1b8bc1a637.jpg" alt="Placeholder image" />)
     } else if (props.categoria === 'stick') {
         category = "has-text-info";
         imgCategory = (<img src="https://i.pinimg.com/564x/54/3f/ff/543fffc70454276511c3f47345e8b757.jpg" alt="Placeholder image" />)

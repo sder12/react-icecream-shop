@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
-const Filter = () => {
-    const [clickedFilter, setClickedFilter] = useState('all');
-    const btnFilter = (value) => {
-        setClickedFilter(value)
-    }
-    console.log(clickedFilter)
+const Filter = ({ btnFilter, clickedFilter }) => {
+    // const [clickedFilter, setClickedFilter] = useState('all');
+    // const btnFilter = (value) => {
+    //     setClickedFilter(value)
+    // }
 
     return (
         <>
