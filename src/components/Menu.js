@@ -15,14 +15,8 @@ const Menu = () => {
     const [filterIcecream, setFilterIcecream] = useState([]);
     const [clickedFilter, setClickedFilter] = useState('all');
     const btnFilter = (value) => {
-        console.log(icecream)
-        console.log(filterIcecream)
-        console.log(clickedFilter)
         getData()
         setClickedFilter(value);
-        console.log(icecream)
-        console.log(filterIcecream)
-        console.log(clickedFilter)
     }
     const filterProducts = (clickedFilter, icecream) => {
         if (clickedFilter !== "all") {
