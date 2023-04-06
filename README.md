@@ -14,16 +14,17 @@ This is my fourth project made with <a href="https://react.dev/"> React </a>
 - create some dynamic style 
 - filter the data when btns are clicked
 
-
-
 <hr/>
-
 
 
 <br/>
 
-<div style="background-color:grey;">
-
-![react-icecream-full](https://user-images.githubusercontent.com/36935960/230157458-48f058d6-5f99-4adc-8e4c-2b7f71b379ce.png)
-
-</div>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/36935960/230374190-e11c40f8-19c6-475f-805e-1c93fb808f1c.png" alt="cover img" width="600"/>  
+</p>
+<br/>
+<hr/>
+<br/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/36935960/230374694-dabae796-dd38-4421-aba1-e27f9c5afde9.png" alt="cover img" width="800"/>  
+</p>
